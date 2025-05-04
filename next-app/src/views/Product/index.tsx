@@ -6,7 +6,7 @@ type ProductType = {
     price: number;
     image: string;
     kategori: string;
-}
+};
 
 const ProductView = ({ products }: { products: ProductType[] }) => {
     return (
